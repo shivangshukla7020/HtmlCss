@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Uber</title>
+
+        <style>
+            .heading{
+                font-family: arial;
+                font-size:35px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+
+            .location, .destination{
+                margin-bottom:10px;
+                display: block;
+                background-color: rgba(206, 206, 206,0.40);
+                border : none;
+                padding-top : 12px;
+                padding-bottom : 12px;
+                padding-left : 20px;
+                padding-right: 100px;
+                border-radius: 20px;
+                font-size: 15px;
+            }
+
+            button{
+                font-family: verdana;
+                margin-top:25px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 20px;
+                padding-right: 20px;
+                border: none;
+                border-radius: 2px;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.20);
+                margin-right: 20px;
+            }
+            button:hover{
+                cursor: pointer;
+                opacity: 0.9;
+    
+            }
+            button:active{
+                opacity: 0.8;
+            }
+
+            .request{
+                background-color: black;
+                color: white;
+                
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class = "heading">
+            Request a ride now
+        </p>
+
+        <input class = "location" placeholder="Enter the pickup location">
+        <input class = "destination" placeholder="Enter destination">
+
+        <button class = "request">
+            Request now
+        </button>
+
+        
+        <button class = "schedule"> 
+            Schedule for later
+        </button>
+    </body>
+</html>
